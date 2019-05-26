@@ -102,6 +102,11 @@ footer {
     /* display: inline-block; */
     margin-top: auto;
   }
+
+  .links ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1300px) {
