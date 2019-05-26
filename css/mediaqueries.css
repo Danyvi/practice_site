@@ -60,7 +60,6 @@ footer {
   /* ******* ******* ******* ******* */
   header {
     display: flex;
-    /* justify-content: center; */
   }
 
   .site-logo {
@@ -75,6 +74,15 @@ footer {
   }
   .middle {
     display: flex;
+    width: 50%;
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: space-around;
+    align-items: center;
   }
   /* ******* ******* ******* ******* */
   main {
@@ -85,9 +93,6 @@ footer {
     grid-gap: 20px;
   }
 
-  /* main {
-    margin: 2em auto;
-  } */
   .card {
     display: flex;
     flex-direction: column;
