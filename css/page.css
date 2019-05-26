@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  /* text-align: center; */
+  margin: 0;
+}
+
+header {
+  background-color: #3398cc;
+}
+main {
+  background-color: #976698;
+}
+.grid div {
+  background-color: #8494a4;
+}
+footer {
+  background-color: #33cacb;
+}
